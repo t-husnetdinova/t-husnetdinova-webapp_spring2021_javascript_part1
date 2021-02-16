@@ -9,3 +9,14 @@ function factorize(n) {
     }
     return factors;
 }
+
+//function findUnique that extracts unique characters from a string
+function findUnique(str) {
+    var uniqueStr = "";
+    for(var i = 0; i < str.length; i++) {
+        if(uniqueStr.indexOf(str.charAt(i)) == -1) {
+            uniqueStr += str[i];
+        }
+    }
+    return uniqueStr;
+}
