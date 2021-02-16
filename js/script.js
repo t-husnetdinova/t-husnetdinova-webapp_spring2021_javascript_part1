@@ -20,3 +20,17 @@ function findUnique(str) {
     }
     return uniqueStr;
 }
+
+//function doOperation that returns the result of the operation
+function doOperation(x, y, operator) {
+    return operator(x, y);
+}
+
+//operator functions to test doOperation function
+function multiply(x, y) {
+    return x * y;
+}
+
+function power(x, y) {
+    return Math.pow(x, y);
+}
