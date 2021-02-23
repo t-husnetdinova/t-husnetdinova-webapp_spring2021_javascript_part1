@@ -1,4 +1,4 @@
-# t-husnetdinova-webapp_spring2021_javascript_part1
+#webapp_spring2021_javascript_part1
 
 Name: Tammy Husnetdinova <br>
 Class: CSCI4800-E01 <br>
